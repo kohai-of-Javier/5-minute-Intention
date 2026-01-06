@@ -1,6 +1,6 @@
 # 5-minute-Intention
 
-![5 minutes](icon-128.png)
+![5 minutes](icons/icon-128.png)
 
 Firefox extension for big online procrastinators. When the user enters a page, the extension blocks the loading of the webpage and it makes the user wait for five minutes. After the time has passed, it asks if he or she still needs or wants to visit the website. This way the user avoids internet surfing procrastination by impulse.
 
