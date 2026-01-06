@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Intención de 5 minutos</title>
+  <style>
+    body,html{
+      margin:0; padding:0; height:100%; display:flex;
+      align-items:center; justify-content:center;
+      font-family:sans-serif; background:#fff;
+      text-align:center;
+    }
+    #countdown{font-size:2em; margin:10px;}
+    button{
+      margin:10px; padding:10px 20px; font-size:1em;
+    }
+  </style>
+</head>
+<body>
+  <div id="overlay">
+    <h1>Intención de 5 minutos</h1>
+    <p>Esperando <span id="countdown">5:00</span> antes de cargar la página.</p>
+    <p>Este tiempo ayuda a reducir la procrastinación.</p>
+  </div>
+
+  <script src="blocking.js"></script>
+</body>
+</html>

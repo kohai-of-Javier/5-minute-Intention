@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "5 minutos de intención",
+  "description": "Obliga a esperar 5 min antes de cargar una página y permite cancelar la visita.",
+  "version": "1.0.0",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "web_accessible_resources": [
+    "blocking.html"
+  ]
+}
